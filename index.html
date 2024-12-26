@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="Author" content="Blvck_Griffin">
+<meta name="description" content="Things I'm learning">
+<title>Pizza De_Griffin</title>
+<link rel="icon" href="icon.jpg" type="image/x-icon">
+
+<link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.css">
+<link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1 id="Home">Welcome To Pizza Domain</h1>
+      
+    <nav>
+        <a href="#Home">Home</a>
+        <a href="#Size">Size</a>
+        <a href="#Toppings">Toppings</a>
+        <a href="#Beverages">Beverages</a>
+    </nav>
+    <hr>
+        <form action="https://httpbin.org/get" method="get">
+            <h3>Order Your Food</h3>
+            <article>
+                <section>
+                    <h4>Customer Details</h4>
+            <p>
+                <label for="customer_name" class="label">Customer Name:</label>
+            <input type="text" name="customer name" id="customer_name">
+            </p>
+            <p>
+                <label for="telephone" class="label">Telephone</label>
+                <input type="tel" name="phone" id="telephone" pattern="[0-9]{3}-[0-9]{3-[0-9]4}" placeholder="555-555-5555">
+            </p>
+           <!--  <p>
+                <label for="email" class="label">E-mail address:</label>
+                <input type="email" name="email" id="email">
+            </p> -->
+            <!-- <p>
+                <label for="Age">Age</label>
+                <input type="number" name="number" id="Age" step="1" min="9" max="90">
+            </p> -->
+            <p>
+                <label for="address">Address:</label>
+                <input type="text" name="address" id="address">
+            </p>
+        <hr>
+        </section>
+        <br>
+        <img src="pizza_sizes.jpg" alt="Size Of Pizza">
+        <br>
+        <fieldset id="Size">
+            
+            <legend>Pizza Size</legend>
+            <p>
+                <label for="small">Small</label>
+                <input type="radio" name="size" id="small" required>
+            </p>
+            <p><label for="Medium">Medium</label>
+                <input type="radio" name="size" id="Medium" required>
+            </p>
+            <p><label for="Large">Large</label>
+                <input type="radio" name="size" id="Large" required>
+            </p>   
+        </fieldset>
+<br><br><br>
+        <fieldset id="Toppings">
+            <legend>Pizza Topping</legend>
+            <p>
+                <label for="bacon">Bacon</label>
+                <input type="checkbox" name="toppings" id="bacon">
+            </p>
+            <p>
+                <label for="cheese">Extra Cheese</label>
+                <input type="checkbox" name="toppings" id="cheese">
+            </p>
+            <p>
+                <label for="Onion">Onion</label>
+                <input type="checkbox" name="toppings" id="Onion">
+            </p>   
+            <p><label for="Mushroom">Mushroom</label>
+                <input type="checkbox" name="toppings" id="Mushroom">
+            </p>  
+        </fieldset>
+
+        <fieldset>
+            <legend>Select Your Beverage</legend>
+            <label for="coffee" id="Beverages">Beverages: </label>
+            <input type="text" name="coffee" id="coffee" list="coffee-list">
+             <datalist id="coffee-list" aria-multiselectable="true">
+                 <option value="Capuccino">
+                 <option value="Latte">
+                 <option value="Americano">
+                 <option value="Frapuccino">
+                 <option value="Cortado">
+                <option value="Regular Coffee">
+                <option value="Iced Coffee">
+                <option value="bel cola">
+                <option value="Bigoo Cola">
+                <option value="Special Cola">
+                <option value="American Cola">
+                 </datalist>
+         </p>
+         <br>
+         <br>
+         <label></label>
+        </fieldset>
+       
+        <br>
+        <br>
+        
+        <br>
+        <p>
+               <label for="delivery_instructions"></label>
+        </p>
+                <div class="that">
+                        <h4>Delivery Instructions</h4>
+            </div>
+                <textarea name="instructions" rows="5" cols="69" id="delivery_instructions" placeholder="Any instructions for the delivery guy or Allergies"></textarea>
+            <p><label for="delivery_time">Preferred delivery time:</label>
+                <input type="time" min="11:00" max="21:00" step="900" name="delivery" id="delivery_time">
+            </p>
+           
+            <label for="submit">Click Here To Submit your Order</label>
+            <div class="see"></div><button>Submit Order</button></div>
+       <!--  <p>
+            <label for="beverages"></label></p>
+                <div class="one">Beverages</div>
+            <select name="beverages" id="beverages" multiple size="8">
+                <optgroup label="Soda">
+                <option value="bel cola">Bel Cola</option>
+                <option value="Bigoo Cola">Bigoo Cola</option>
+                <option value="Special Cola">Special Cola</option>
+                <option value="American Cola">American Cola</option>
+            </optgroup>
+                <optgroup label="Coffee">
+                <option value="Regular Coffee">Regular Coffee</option>
+                <option value="Iced Coffee">Iced Coffee</option>
+            </optgroup>
+            <optgroup label="Espresso">
+                <option value="Capuccino">Capuccino</option>
+                <option value="Frapuccino">Frapuccino</option>
+                <option value="Latte">Latte</option>
+                <option value="Americano">Americano</option>
+                </optgroup>
+            </select> -->
+             <br>
+            </form>
+    </article>
+       
+        <br> <br> <br>
+<footer><hr>
+    <div class="red"><p>Copyright(c) 2025 &copy; Griffin's Pizza Domain</p>
+    <p><strong>TERMS AND CONDITIONS &nbsp;&nbsp; PRIVACY POLICY/ACCRA PRIVACY RIGHTS</strong> </p>
+    </div>
+    </footer>
+</body>
+</html>

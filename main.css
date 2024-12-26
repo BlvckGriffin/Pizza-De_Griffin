@@ -1,0 +1,27 @@
+
+html{
+    font-size: 22px;
+}
+body{
+    background-color: #1b1b32;
+    color: whitesmoke
+}
+legend{
+    text-align: center;
+}
+img{
+    width:90vw;
+    padding-left: 50px;
+    height: 40vh
+}
+section{text-align: center}
+h1, h3, a, legend, nav{text-align: center}
+
+footer{text-align: center; height: 18vh;}
+.red{text-align: left; font-size: smaller;}
+.that{text-align: left;}
+.one{text-align: left;}
+select{margin-left: 99px;}
+select, .one{justify-content: inline;}
+
+nav{text-decoration: none;}
